@@ -13,8 +13,8 @@ import { ConfigModule } from '@nestjs/config';
     AuthModule,
     UserModule,
     NoteModule,
-    PrismaModule,//auto-import module
-    //another modules    
+    PrismaModule, //auto-import module
+    //another modules
   ],
 })
 export class AppModule {}
